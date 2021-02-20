@@ -25,3 +25,4 @@ public void myFractal(int x, int y, int siz)
   myFractal(x-siz/2, y+siz/2, siz/3);
   }
 }
+
