@@ -2,11 +2,11 @@ public void setup()
 {
   size(1000, 1000);
   rectMode(CENTER);
+  background(0);
 }
 
 public void draw()
 {
-  background(0);
   myFractal(500, 500, 480);
 }
 
@@ -25,4 +25,3 @@ public void myFractal(int x, int y, int siz)
   myFractal(x-siz/2, y+siz/2, siz/3);
   }
 }
-
